@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 90%;
+    min-height:100vh;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    /* margin: 5rem 5rem; */
+    border-radius: 3rem;
+    box-shadow: 0 0 2rem rgba(78, 78, 218, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container h1{
+    padding-top: 1rem;
+} 
+
+select, #button{
+    background-color: rgb(32, 72, 74);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+}
+
+#button{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+select option{
+ display:grid;
+ gap: 3rem;
+
+}
