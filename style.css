@@ -10,7 +10,7 @@ html{
 
 .container{
     width: 90%;
-    min-height:100vh;
+    min-height:70vh;
     background-color: aliceblue;
     margin: auto;
     margin-top: 5rem;
@@ -39,10 +39,4 @@ select, #button{
 #button{
     font-size: 1.4rem;
     cursor: pointer;
-}
-
-select option{
- display:grid;
- gap: 3rem;
-
 }
